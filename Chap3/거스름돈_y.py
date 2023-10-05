@@ -5,8 +5,6 @@ coin_type = list(map(int, input().split()))
 
 coin_type.sort(reverse = True)
 
-print(coin_type)
-
 for coin in coin_type:
   count += n//coin
   n %= coin
