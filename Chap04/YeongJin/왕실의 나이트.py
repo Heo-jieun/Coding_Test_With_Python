@@ -4,7 +4,7 @@ dx = [-2, -1, 1, 2, 2, 1, -1, -2]
 dy = [1, 2, 2, 1, -1, -2, -2, -1]
 
 x = int(cur[1])
-y = int(ord(cur[0])) - int(ord('a')) + 1
+y = ord(cur[0]) - ord('a') + 1 
 
 cnt = 0
 for i in range(8):
