@@ -10,6 +10,6 @@ dy = [1,-1,1,-1,2,2,-2,-2]
 
 cnt = 0
 for i in range(len(dx)):
-    if (0 <= col+dx[i] < 8) and (0 <= row+dy[i] < 8):
+    if (0 <= row+dx[i] < 8) and (0 <= col+dy[i] < 8):
         cnt += 1
 print(cnt)
